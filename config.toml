@@ -132,3 +132,14 @@ weight = 20
 
 [markup.highlight]
 noClasses = false
+
+[privacy.googleAnalytics]
+disable = false
+
+
+## 配置 utteranc评论,教程参考 https://utteranc.es/
+[params.utteranc]
+  enable = true
+  repo = "letterl/hugo-page-log" ##换成自己得
+  issueTerm = "pathname"
+  theme = "github-light"
