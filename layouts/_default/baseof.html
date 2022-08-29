@@ -1,0 +1,6 @@
+<head>
+    {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
+    {{ partial "analytics-gtag.html" . }}
+    {{ end }}
+    
+</head>
