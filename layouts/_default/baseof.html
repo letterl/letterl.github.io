@@ -7,7 +7,7 @@
     {{ if and (hugo.IsProduction)
         (.Site.Params.googleAnalytics) }} {{ partial
         "analytics-gtag.html" . }} {{ end }}
-
+</head>
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
 {{- print "list" -}}
@@ -19,23 +19,9 @@
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
+        {{ partial "giscus.html" . }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
-    <script src="https://giscus.app/client.js"
-        data-repo="letterl/hugo-page-log"
-        data-repo-id="R_kgDOH5svhA"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOH5svhM4CRHVv"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
 </body>
 
 </html>
