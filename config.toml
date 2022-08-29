@@ -84,14 +84,14 @@ tocopen = false
   name = "github"
   url = "https://github.com/letterl"
 
-[params.analytics.google]
-SiteVerificationTag = "G-WLCN304BM6"
+# [params.analytics.google]
+# SiteVerificationTag = "G-WLCN304BM6"
 
-[params.analytics.bing]
-SiteVerificationTag = "XYZabc"
+# [params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
 
-[params.analytics.yandex]
-SiteVerificationTag = "XYZabc"
+# [params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
 
   [params.cover]
   hidden = true

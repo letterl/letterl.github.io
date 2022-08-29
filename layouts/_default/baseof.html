@@ -5,7 +5,7 @@
     {{- partial "head.html" . }}
     
     {{ if and (hugo.IsProduction)
-        (.Site.Params.analytics.google.SiteVerificationTag) }} {{ partial
+        (.Site.Params.googleAnalytics) }} {{ partial
         "analytics-gtag.html" . }} {{ end }}
 
 <body class="

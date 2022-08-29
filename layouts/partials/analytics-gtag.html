@@ -1,9 +1,9 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.google.SiteVerificationTag }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.googleAnalytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ .Site.Params.analytics.google.SiteVerificationTag }}');
+  gtag('config', '{{ .Site.googleAnalytics }}');
 </script>
