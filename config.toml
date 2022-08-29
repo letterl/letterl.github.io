@@ -1,5 +1,5 @@
-baseURL = "https://examplesite.com/"
-title = "ExampleSite"
+baseURL = "https://579635.xyz"
+title = "清思追梦"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -82,10 +82,10 @@ tocopen = false
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/letterl"
 
 [params.analytics.google]
-SiteVerificationTag = "XYZabc"
+SiteVerificationTag = "G-WLCN304BM6"
 
 [params.analytics.bing]
 SiteVerificationTag = "XYZabc"
@@ -124,11 +124,11 @@ name = "tags"
 url = "/tags/"
 weight = 20
 
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
+# [[menu.main]]
+# identifier = "example"
+# name = "example.org"
+# url = "https://579635.xyz"
+# weight = 30
 
 [markup.highlight]
 noClasses = false
