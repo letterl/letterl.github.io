@@ -137,9 +137,13 @@ noClasses = false
 disable = false
 
 
-## 配置 utteranc评论,教程参考 https://utteranc.es/
-[params.utteranc]
-  enable = true
-  repo = "letterl/hugo-page-log" ##换成自己得
-  issueTerm = "pathname"
-  theme = "github-light"
+# [params.commentsParams]
+# repo = "jaredyam/jaredyam.github.io"
+# repoId = "R_kgDOG9Gq_Q"
+# category = "Announcements"
+# categoryId = "DIC_kwDOG9Gq_c4CO_p0"
+# mapping = "title"
+# reactionsEnabled = 1
+# emitMetadata = 1
+# inputPosition = "top"
+# lang = "zh-CN"
