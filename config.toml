@@ -8,6 +8,7 @@ buildFuture = false
 buildExpired = false
 googleAnalytics = "G-WLCN304BM6"
 pygmentsUseClasses = true
+disqusShortname = "123"
 
 [minify]
 disableXML = true
