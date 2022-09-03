@@ -1,6 +1,6 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+title: "Win11 Vmware ArchLinux Install Error"
+date: 2022-09-03T09:51:00+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
@@ -35,3 +35,8 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+如图 out of memory
+![avatar](https://blog-1309674957.cos.ap-guangzhou.myqcloud.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220901093616.png)
+
+把虚拟机运行内存调大即可
