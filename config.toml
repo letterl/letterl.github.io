@@ -48,7 +48,7 @@ giscus = true
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Home"
+  text = "首页"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
@@ -70,8 +70,8 @@ giscus = true
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Title = "无事小神仙"
+  Content = "❄晚来天欲雪 能饮一杯无"
 
 #   [[params.socialIcons]]
 #   name = "twitter"
@@ -114,14 +114,14 @@ giscus = true
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "categories"
-name = "categories"
+identifier = "分类"
+name = "分类"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
 identifier = "tags"
-name = "tags"
+name = "标签"
 url = "/tags/"
 weight = 20
 
