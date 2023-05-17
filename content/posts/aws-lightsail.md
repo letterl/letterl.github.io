@@ -45,9 +45,7 @@ editPost:
 ## 1. 安装Aws-cli
 
 ```bash
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
+wget
 ```
 
 
@@ -271,3 +269,8 @@ ls -l /opt/aws/amazon-cloudwatch-agent/etc/
 最后 使用非主账号也就是非IAM账号登入，然后在CloudWatch中查看监控数据
 在全部指标 选项中 选择lightsail实例的地区 选择CWAgent
 添加自己需要的监控指标即可
+
+
+本文参考链接
+https://dev.classmethod.jp/articles/lightsail-instance-disk-memory-monitoring/
+https://linuxfun.org/en/2022/10/04/how-to-monitor-lightsail-by-cloudwatch-en/
