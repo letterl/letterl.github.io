@@ -25,18 +25,22 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/letterl/letterl.github.io/tree/main/content/posts"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+先上效果图
+![](https://up-web.pages.dev/img/20230517212000.16d0bc8b.png "")
 
-我的系统是Ubuntu
+
+
+系统是Ubuntu
 
 ## 1. 安装Aws-cli
 
