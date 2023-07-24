@@ -1,4 +1,4 @@
-baseURL = "https://579635.xyz"
+baseURL = "https://lonelydance.eu.org"
 title = "清思追梦"
 paginate = 5
 theme = "PaperMod"
@@ -70,7 +70,7 @@ giscus = true
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "无事小神仙"
+  Title = "清思追梦"
   Content = "❄晚来天欲雪 能饮一杯无"
 
 #   [[params.socialIcons]]
