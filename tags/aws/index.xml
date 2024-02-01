@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on 清思追梦</title>
+    <link>https://lonelydance.eu.org/tags/aws/</link>
+    <description>Recent content in aws on 清思追梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 May 2023 20:54:49 +0800</lastBuildDate>
+    <atom:link href="https://lonelydance.eu.org/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aws Lightsail 使用 Cloudwatch-agent 监控流量使用</title>
+      <link>https://lonelydance.eu.org/posts/aws-lightsail/</link>
+      <pubDate>Wed, 17 May 2023 20:54:49 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/aws-lightsail/</guid>
+      <description>先上效果图 系统是Ubuntu&#xA;1. 安装Aws-cli wget 2. 安装 Cloudwatch-agent wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb sudo dpkg -i -E ./amazon-cloudwatch-agent.deb 3. 配置 Cloudwatch-agent sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard 设置验证信息 获取验证信息 创建IAM用户时 创建编程访问密钥&#xA;sudo aws configure --profile AmazonCloudWatchAgent access key和secret access key参照创建IAM用户时生成的csv文件输入。 输入前两项 其他默认&#xA;AWS Access Key ID [None]:******************XZ AWS Secret Access Key [None]: ******************5a Default region name [None]: Default output format [None]: 生成 agent.json 这个是配置文件 定义收集系统哪些信息 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard 您使用的是 EC2 还是 On-Premises 主机？&#xA;EC2 On-Premises 默认选择：[1]: 2 Do you want to turn on StatsD daemon?</description>
+    </item>
+  </channel>
+</rss>

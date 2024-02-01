@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>清思追梦</title>
+    <link>https://lonelydance.eu.org/</link>
+    <description>Recent content on 清思追梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 22:04:00 +0800</lastBuildDate>
+    <atom:link href="https://lonelydance.eu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 总结</title>
+      <link>https://lonelydance.eu.org/posts/2023-summarize/</link>
+      <pubDate>Thu, 01 Feb 2024 22:04:00 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/2023-summarize/</guid>
+      <description>2023年总结 先占坑 后续补上</description>
+    </item>
+    <item>
+      <title>Aws Lightsail 使用 Cloudwatch-agent 监控流量使用</title>
+      <link>https://lonelydance.eu.org/posts/aws-lightsail/</link>
+      <pubDate>Wed, 17 May 2023 20:54:49 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/aws-lightsail/</guid>
+      <description>先上效果图 系统是Ubuntu&#xA;1. 安装Aws-cli wget 2. 安装 Cloudwatch-agent wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb sudo dpkg -i -E ./amazon-cloudwatch-agent.deb 3. 配置 Cloudwatch-agent sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard 设置验证信息 获取验证信息 创建IAM用户时 创建编程访问密钥&#xA;sudo aws configure --profile AmazonCloudWatchAgent access key和secret access key参照创建IAM用户时生成的csv文件输入。 输入前两项 其他默认&#xA;AWS Access Key ID [None]:******************XZ AWS Secret Access Key [None]: ******************5a Default region name [None]: Default output format [None]: 生成 agent.json 这个是配置文件 定义收集系统哪些信息 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard 您使用的是 EC2 还是 On-Premises 主机？&#xA;EC2 On-Premises 默认选择：[1]: 2 Do you want to turn on StatsD daemon?</description>
+    </item>
+    <item>
+      <title>2023-五一</title>
+      <link>https://lonelydance.eu.org/posts/20230503/</link>
+      <pubDate>Wed, 03 May 2023 21:57:20 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/20230503/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>平庸不平凡</title>
+      <link>https://lonelydance.eu.org/posts/%E5%B9%B3%E5%BA%B8%E4%B8%8D%E5%B9%B3%E5%87%A1/</link>
+      <pubDate>Mon, 13 Feb 2023 22:58:22 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/%E5%B9%B3%E5%BA%B8%E4%B8%8D%E5%B9%B3%E5%87%A1/</guid>
+      <description>我在回忆自己的童年时，我逐渐发现自己失去了曾经幻想的形象了，他曾经占据了我的可能。但是随着时间，我发现我逐渐掌握不住那个形象了，我发现组成他的时间太漫长了，而我始终支离破碎。&#xA;于是在一个早晨，或者一个晚上，我突然决定接受一个新的东西，它叫平庸，接受一种不再可能，接受一个背叛的我。我起初以为它一定很难，我只是想要歇一歇了，也许我很快，马上就会再次出发，我还会继续。但是当我发现接受它并不难，也不痛苦，反而有一种快乐的时候，那么我开始去想一种新的意义了。&#xA;我否定了我，我将失去意义吗？我没有到达那个想象中的我，我将失去意义吗？不，我重新定义了一种新的意义，它不坏，再度随着时间，我将意识到健康，家庭，摇椅，后代，爱情，萤火虫，他们都将在我身上以各种形式打败我，我一次又一次的支离破碎，一次又一次的努力拼接，直到我终于到达了一个我不得不妥协的年龄的时候，我童年幻想的我已经面目全非，我不会再问什么是意义，再也不会关心别人关于我的描述了，我成了彻底的自己，但是如此平庸的我，深深的清楚，在我自己的生命的叙事里面，我就是那唯一的悲剧的英雄，谁都是配角，即使我曾经幻想的形象，也不过是童年里，偶尔出现过的一尊雕像。而在我的叙事里面，我才是唯一不平凡的。&#xA;摘录自 bilibili-天真的和感伤的小说家</description>
+    </item>
+    <item>
+      <title>Null</title>
+      <link>https://lonelydance.eu.org/posts/%E6%97%A0%E9%A2%98-20230417/</link>
+      <pubDate>Sun, 12 Feb 2023 13:30:42 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/%E6%97%A0%E9%A2%98-20230417/</guid>
+      <description>蝇营狗苟</description>
+    </item>
+    <item>
+      <title>无题</title>
+      <link>https://lonelydance.eu.org/posts/%E6%97%A0%E9%A2%98/</link>
+      <pubDate>Sun, 12 Feb 2023 13:30:42 +0800</pubDate>
+      <guid>https://lonelydance.eu.org/posts/%E6%97%A0%E9%A2%98/</guid>
+      <description>人不是活一辈子&#xA;不是活几年几月几天&#xA;而是活那么几个瞬间</description>
+    </item>
+  </channel>
+</rss>
